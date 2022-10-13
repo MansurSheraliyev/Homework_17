@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Heebo", sans-serif;
+}
+
+.container {
+  width: 1152px;
+  margin: auto;
+}
+.container .unoredered {
+  display: flex;
+  justify-content: end;
+  margin: 27px 60px 158px 0;
+}
+.container .unoredered li {
+  list-style: none;
+  font-size: 20px;
+  line-height: 29px;
+  margin-left: 33px;
+}
+.container .block {
+  display: flex;
+  justify-content: space-between;
+}
+.container .block .left {
+  padding-left: 148px;
+}
+.container .block .left .title {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+  width: 506px;
+  height: 105px;
+  margin-bottom: 40px;
+}
+.container .block .left .subtitle {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 38px;
+}
+.container .block .left .button {
+  width: 208px;
+  height: 47px;
+  background: #FF6464;
+  border-radius: 2px;
+  border: none;
+  margin-bottom: 70px;
+}
+.container .block .left .button a {
+  text-decoration: none;
+  font-size: 20px;
+  line-height: 29px;
+  color: #fff;
+}
+.container .block .right {
+  margin-right: 149px;
+}
+.container .main {
+  padding: 27px 148px 32px 148px;
+  background: #EDF7FA;
+}
+.container .main .recent__block {
+  display: flex;
+  justify-content: space-between;
+}
+.container .main .recent__block .recent__posts {
+  font-size: 22px;
+  line-height: 60px;
+  color: #21243D;
+}
+.container .main .recent__block a {
+  font-size: 16px;
+  line-height: 24px;
+  color: #00A8CC;
+  text-decoration: none;
+}
+.container .main .cards {
+  display: flex;
+  justify-content: space-between;
+}
+.container .main .cards .card {
+  width: 418px;
+  height: 295px;
+  padding: 24px 0 0 23px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+  border-radius: 4px;
+  margin-bottom: 22px;
+}
+.container .main .cards .card h2 {
+  width: 374px;
+  height: 85px;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 38px;
+  margin-bottom: 17px;
+}
+.container .main .cards .card .pattern {
+  display: flex;
+  margin-bottom: 12px;
+}
+.container .main .cards .card .pattern .date {
+  font-size: 18px;
+  line-height: 26px;
+  color: #21243D;
+  border-right: 1px solid #000;
+  height: 21px;
+  margin-right: 30px;
+  padding-right: 30px;
+}
+.container .main .cards .card .pattern .place {
+  font-size: 18px;
+  line-height: 26px;
+  color: #21243D;
+}
+.container .main .cards .card .paragraph {
+  width: 368px;
+  height: 117px;
+  font-size: 16px;
+  line-height: 24px;
+}
+.container .block__featured {
+  padding: 15px 148px 0 146px;
+  background: #FFFFFF;
+  margin-top: 15px;
+}
+.container .block__featured .featured {
+  font-size: 22px;
+  line-height: 60px;
+}
+.container .block__featured .block__designing {
+  display: flex;
+  border-bottom: 1px solid #E0E0E0;
+  padding-bottom: 15px;
+  margin-bottom: 31px;
+}
+.container .block__featured .block__designing .img__left {
+  margin-right: 18px;
+}
+.container .block__featured .block__designing .info__right .h2__right {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 44px;
+  margin-bottom: 16px;
+}
+.container .block__featured .block__designing .info__right .info__block {
+  display: flex;
+  margin-bottom: 17px;
+}
+.container .block__featured .block__designing .info__right .info__block .info__button {
+  width: 62px;
+  height: 25px;
+  background: #142850;
+  border-radius: 16px;
+  margin-right: 26px;
+}
+.container .block__featured .block__designing .info__right .info__block .info__button a {
+  color: #fff;
+  text-decoration: none;
+}
+.container .block__featured .block__designing .info__right .info__block .info__paragraph {
+  font-size: 20px;
+  line-height: 29px;
+  color: #8695A4;
+}
+.container .block__featured .block__designing .info__right .prgh {
+  font-size: 16px;
+  line-height: 24px;
+  color: #21243D;
+}
+.container .block__icons {
+  margin-top: 83px;
+  padding: 51px 0 0 459px;
+}
+.container .block__icons .item__icons {
+  display: flex;
+}
+.container .block__icons .item__icons div {
+  margin: 0 35px 26px 0;
+}
+.container .block__icons .adress {
+  margin-bottom: 54px;
+  font-size: 15px;
+  line-height: 21px;
+}
